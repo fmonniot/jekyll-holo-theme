@@ -1,0 +1,15 @@
+markdown: redcarpet2
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
+permalink: pretty
+exclude: ['README.md', 'Rakefile', 'pids', 'Gemfile.lock', 'Gemfile']
+paginate: 3
+pygments: true
+
+author:
+    name: François Monniot
+    email: francois@monniot.eu
+
+
+name: "Jekill Holo theme"
+url: "localhost:4000"

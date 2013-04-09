@@ -1,0 +1,241 @@
+//
+// color variables
+//
+@color-article-footer:      #9C9C9C;
+@color-background:          #dedede;
+@color-footer:              #9a9a9a;
+@color-footer-article:      #CACACA;
+@color-footer-link:         #888;
+@color-h1:                  #393935;
+@color-h2:                  #5b5b57;
+@color-header-background:   #ffffff;
+@color-header-shadow:       #aaaaaa;
+@color-link:                #1171b2;
+@color-link-disabled:       #999999;
+@color-link-hover:          #44c6f6;
+@color-link-light:          #33b5e5;
+@color-main:                #000000;
+@color-wrapper-background:  #ffffff;
+@color-wrapper-border:      #d2d2c8;
+
+//
+// Mixins
+//
+.title (@color, @size) {
+  color: @color;
+  font-size: @size;
+  font-weight: 100;
+  line-height: 1em;
+  margin: 0;
+}
+
+.link-color(@color, @color-hover) {
+  color: @color;
+
+  &:hover {
+    color: @color-hover;
+  };
+}
+
+// Load fonts
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100);
+
+// Syntax coloration
+@import "pygments_solarized.css";
+
+// General tags
+body {
+  background: @color-background;
+  color: @color-main;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 1em;
+  line-height: 1em;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  .link-color(@color-link, @color-link-hover);
+}
+
+p {
+  font-size: 1em;
+  font-weight: 300;
+  margin: 0 0 1em 0;
+}
+
+h1 { .title(@color-h1, 2em); }
+h2 { .title(@color-h2, 1.75em); }
+
+footer a { .link-color(@color-footer-link, @color-link-hover); }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    font: inherit;
+
+    tr {
+      background-color: #FFFFFF;
+      border-top: 1px solid #CCCCCC;
+
+      &:nth-child(2n) {
+        background-color: #F8F8F8;
+      }
+    }
+
+    th, td {
+      border: 1px solid #CCCCCC;
+      padding: 6px 13px;
+    }
+}
+
+// Wrapper and utilities
+
+.wrapper {
+  margin: 0 auto;
+  padding: 1em;
+  width: 70%;
+}
+
+.right { float: right; }
+
+// Site Header definition
+
+header#top {
+  background: @color-header-background;
+  box-shadow: 0 2px 6px @color-header-shadow;
+  margin-bottom: 1em;
+
+  .wrapper { width: 70%; }
+
+  ul {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      float: right;
+
+      a {
+        display: inline-block;
+        font-size: 1em;
+        .link-color(@color-link, @color-link-hover);
+        padding: 0.5em;
+      }
+    }
+  }
+}
+
+.wrapper {
+
+  // Navigation Definition
+  nav {
+    padding: 0 8% 1em;
+
+    span { color: @color-link-disabled; }
+  };
+
+  // Footer Definition
+  footer {
+    border-top: 1px solid @color-wrapper-border;
+    color: @color-footer;
+    font-size: 0.7em;
+    padding: 1em 0.3em 0 0.5em;
+
+    a { .link-color(@color-footer-link, @color-link-hover); }
+    .top { float: right; }
+  }
+
+  // Article definition
+  article {
+    padding: 1em 4.5em;
+    position: relative;
+
+    .content {
+      background: @color-wrapper-background;
+      border: 1px solid @color-wrapper-border;
+      border-radius: 4px;
+      box-shadow: 0 4px 2px -2px @color-header-shadow;
+      padding: 1em;
+
+      header {
+        min-height: 3em;
+        min-width: 100%;
+      }
+
+      section {
+        padding: 0 1em;
+
+        h1,h2,h3 {
+          padding: 0.5em 0;
+        }
+      }
+
+      footer {
+        border-top: 1px solid @color-wrapper-border;
+        color: @color-footer-article;
+        font-size: 0.8em;
+        margin: 0 1em;
+      }
+    }
+  }
+}
+
+//
+// Responsive design
+//
+
+// Tablet landscape
+@media screen and (max-width: 1024px) {
+  .wrapper { width: 94%; }
+}
+
+//Small tablet landscape and tablet portrait
+@media screen and (max-width: 800px) {
+
+  header#top { margin-bottom: 0; }
+  .wrapper article { padding: 1em; }
+}
+
+// Mobile landscape
+@media screen and (max-width: 480px) {
+  header#top {
+    .wrapper {
+      padding: 0.2em 0;
+      width: 98%;
+
+      ul a {
+        padding-right: 0;
+      }
+    }
+  }
+
+  .wrapper {
+    padding: 0;
+    width: 100%;
+
+    article .content {
+      padding: 0.5em;
+
+      section { padding: 0 0.5em; }
+    }
+  }
+}
+
+// Mobile portrait
+@media screen and (max-width: 320px) {
+
+  .wrapper article{
+    padding: 1em 0;
+
+    .content {
+      border-left: none;
+      border-radius: 0;
+      border-right: none;
+
+      section { padding: 0; }
+    }
+  }
+}

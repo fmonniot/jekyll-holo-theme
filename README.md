@@ -13,6 +13,13 @@ This is designed to be an easy layout to modify for your own blog.
 
 You should have a server up and running locally at <http://localhost:4000>.
 
+## Deployment
+
+You should deploy with [GitHub Pages](http://pages.github.com)- it's just
+easier.
+
+For an easier deployment I recommand the [Git Publish](https://github.com/prost87/git-publish-pages) extension.
+
 ## Licensing
 
 This is [MIT](https://github.com/fmonniot/jekyll-holo-theme/blob/master/LICENSE) with no

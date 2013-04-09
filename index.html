@@ -7,12 +7,12 @@ title: "Jekill Holo theme"
 {% for post in paginator.posts %}
 <article>
   <div class="content">
-    <header><a href="{{ post.url }}"><h2>{{ post.title }}</h2></a></header>
+    <header><a href="{{ site.url }}{{ post.url }}"><h2>{{ post.title }}</h2></a></header>
     <section>
       {{ post.content | more: "going" }}
     </section>
     <footer>
-      <a href="{{ post.url }}">{{ post.date | date_to_long_string }}</a>
+      <a href="{{ site.url }}{{ post.url }}">{{ post.date | date_to_long_string }}</a>
       {% comment %} If category or tag , a paragraphe can be insert here {% endcomment %}
     </footer>
   </div>

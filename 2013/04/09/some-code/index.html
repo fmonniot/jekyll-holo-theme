@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+  <html lang="fr">
+    <head>
+      <!-- meta -->
+      <meta charset="utf-8" />
+      <meta name="keywords" content="" />
+      <meta name="description" content="" />
+      <meta name="author" content="François Monniot">
+      <meta name="viewport" content="width=device-width">
+
+
+      <!-- include -->
+      <link rel="stylesheet" href="http://francois.monniot.eu/jekyll-holo-theme/css/styles.css" />
+      <link rel="alternate" type="application/rss+xml" href="http://francois.monniot.eu/jekyll-holo-theme/atom.xml" title="RSS feed">
+
+      <title>Some code</title>
+    </head>
+    <body>
+      <header id="top">
+        <div class="wrapper">
+          <ul>
+            <li><a href="http://francois.monniot.eu/jekyll-holo-theme/archives/">Archives</a></li>
+          </ul>
+          <h1><a href="http://francois.monniot.eu/jekyll-holo-theme/">Jekill Holo theme</a></h1>
+        </div>
+      </header>
+      <div class="wrapper">
+        <article>
+  <div class="content">
+    <header><a href="http://francois.monniot.eu/jekyll-holo-theme//2013/04/09/some-code/"><h2>Some code</h2></a></header>
+    <section>
+      <p>Some ruby highlighting</p>
+<div class="highlight"><pre><code class="ruby"><span class="k">def</span> <span class="nf">foo</span>
+  <span class="nb">puts</span> <span class="s1">&#39;foo&#39;</span>
+<span class="k">end</span>
+</code></pre>
+</div>
+
+<!--more-->
+
+<p>Some xml rendering</p>
+<div class="highlight"><pre><code class="xml"><span class="cp">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;</span>
+<span class="nt">&lt;manifest</span> <span class="na">xmlns:android=</span><span class="s">&quot;http://schemas.android.com/apk/res/android&quot;</span>
+<span class="na">package=</span><span class="s">&quot;net.minet.adh5.android&quot;</span>
+<span class="na">android:versionCode=</span><span class="s">&quot;1&quot;</span>
+<span class="na">android:versionName=</span><span class="s">&quot;0.1&quot;</span> <span class="nt">&gt;</span>
+
+<span class="nt">&lt;uses-sdk</span>
+<span class="na">android:minSdkVersion=</span><span class="s">&quot;15&quot;</span>
+<span class="na">android:targetSdkVersion=</span><span class="s">&quot;17&quot;</span> <span class="nt">/&gt;</span>
+
+<span class="nt">&lt;uses-permission</span> <span class="na">android:name=</span><span class="s">&quot;android.permission.INTERNET&quot;</span> <span class="nt">/&gt;</span>
+
+<span class="nt">&lt;application</span>
+<span class="na">android:allowBackup=</span><span class="s">&quot;true&quot;</span>
+<span class="na">android:icon=</span><span class="s">&quot;@drawable/ic_launcher&quot;</span>
+<span class="na">android:label=</span><span class="s">&quot;@string/app_name&quot;</span>
+<span class="na">android:theme=</span><span class="s">&quot;@style/AppTheme&quot;</span> <span class="nt">&gt;</span>
+<span class="nt">&lt;activity</span>
+<span class="na">android:name=</span><span class="s">&quot;net.minet.adh5.android.ui.MainActivity_&quot;</span>
+<span class="na">android:label=</span><span class="s">&quot;@string/app_name&quot;</span>
+<span class="na">android:theme=</span><span class="s">&quot;@style/AppTheme.ActionBar&quot;</span> <span class="nt">&gt;</span>
+<span class="nt">&lt;intent-filter&gt;</span>
+<span class="nt">&lt;action</span> <span class="na">android:name=</span><span class="s">&quot;android.intent.action.MAIN&quot;</span> <span class="nt">/&gt;</span>
+
+<span class="nt">&lt;category</span> <span class="na">android:name=</span><span class="s">&quot;android.intent.category.LAUNCHER&quot;</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;/intent-filter&gt;</span>
+<span class="nt">&lt;/activity&gt;</span>
+<span class="nt">&lt;activity</span>
+<span class="na">android:name=</span><span class="s">&quot;net.minet.adh5.android.ui.member.SearchActivity_&quot;</span>
+<span class="na">android:label=</span><span class="s">&quot;@string/app_name&quot;</span>
+<span class="na">android:theme=</span><span class="s">&quot;@style/AppTheme.ActionBar&quot;</span> <span class="nt">&gt;</span>
+<span class="nt">&lt;/activity&gt;</span>
+<span class="nt">&lt;activity</span>
+<span class="na">android:name=</span><span class="s">&quot;net.minet.adh5.android.ui.SettingsActivity&quot;</span>
+<span class="na">android:label=</span><span class="s">&quot;@string/title_activity_settings&quot;</span>
+<span class="na">android:parentActivityName=</span><span class="s">&quot;net.minet.adh5.android.ui.MainActivity_&quot;</span> <span class="nt">&gt;</span>
+<span class="nt">&lt;meta-data</span>
+<span class="na">android:name=</span><span class="s">&quot;android.support.PARENT_ACTIVITY&quot;</span>
+<span class="na">android:value=</span><span class="s">&quot;net.minet.adh5.android.ui.MainActivity_&quot;</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;/activity&gt;</span>
+<span class="nt">&lt;activity</span>
+<span class="na">android:name=</span><span class="s">&quot;net.minet.adh5.android.ui.member.MemberActivity_&quot;</span>
+<span class="na">android:label=</span><span class="s">&quot;@string/app_name&quot;</span>
+<span class="na">android:theme=</span><span class="s">&quot;@style/AppTheme.ActionBar&quot;</span>
+<span class="na">android:uiOptions=</span><span class="s">&quot;splitActionBarWhenNarrow&quot;</span> <span class="nt">&gt;</span>
+<span class="nt">&lt;/activity&gt;</span>
+<span class="nt">&lt;/application&gt;</span>
+<span class="nt">&lt;/manifest&gt;</span>
+</code></pre>
+</div>
+
+    </section>
+    <footer>
+      <a href="http://francois.monniot.eu/jekyll-holo-theme//2013/04/09/some-code/">9 April 2013</a>
+      
+    </footer>
+  </div>
+</article>
+
+
+        
+
+        <footer>
+          <a class="top" href="#top">Top</a>
+          Powered by <a href="https://github.com/mojombo/jekyll/">Jekyll</a> | Theme <a href="https://github.com/fmonniot/jekyll-holo-theme">Holo</a> by <a href="http://francois.monniot.eu">François Monniot</a>
+        </footer>
+      </div>
+    </body>
+</html>

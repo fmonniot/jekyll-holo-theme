@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Jekill Holo theme</title>
+ <link href="http://francois.monniot.eu/jekyll-holo-theme//atom.xml" rel="self"/>
+ <link href="http://francois.monniot.eu/jekyll-holo-theme/"/>
+ <updated>2013-04-09T14:07:03+02:00</updated>
+ <id>http://francois.monniot.eu/jekyll-holo-theme/</id>
+ <author>
+   <name>Jekill Holo theme</name>
+ </author>
+
+ 
+ <entry>
+   <title>Some code</title>
+   <link href="http://francois.monniot.eu/jekyll-holo-theme//2013/04/09/some-code/"/>
+   <updated>2013-04-09T00:00:00+02:00</updated>
+   <id>http://francois.monniot.eu/jekyll-holo-theme//2013/04/09/some-code</id>
+   <content type="html">&lt;p&gt;Some ruby highlighting&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;foo&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;foo&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Some xml rendering&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;xml&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-8&amp;quot;?&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;manifest&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;xmlns:android=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;http://schemas.android.com/apk/res/android&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;package=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;net.minet.adh5.android&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;android:versionCode=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;1&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;android:versionName=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;0.1&amp;quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;uses-sdk&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;android:minSdkVersion=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;15&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;android:targetSdkVersion=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;17&amp;quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;uses-permission&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;android:name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;android.permission.INTERNET&amp;quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;application&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;android:allowBackup=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;true&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;android:icon=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;@drawable/ic_launcher&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;android:label=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;@string/app_name&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;android:theme=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;@style/AppTheme&amp;quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;activity&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;android:name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;net.minet.adh5.android.ui.MainActivity_&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;android:label=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;@string/app_name&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;android:theme=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;@style/AppTheme.ActionBar&amp;quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;intent-filter&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;action&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;android:name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;android.intent.action.MAIN&amp;quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;category&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;android:name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;android.intent.category.LAUNCHER&amp;quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/intent-filter&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/activity&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;activity&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;android:name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;net.minet.adh5.android.ui.member.SearchActivity_&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;android:label=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;@string/app_name&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;android:theme=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;@style/AppTheme.ActionBar&amp;quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/activity&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;activity&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;android:name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;net.minet.adh5.android.ui.SettingsActivity&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;android:label=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;@string/title_activity_settings&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;android:parentActivityName=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;net.minet.adh5.android.ui.MainActivity_&amp;quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta-data&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;android:name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;android.support.PARENT_ACTIVITY&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;android:value=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;net.minet.adh5.android.ui.MainActivity_&amp;quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/activity&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;activity&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;android:name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;net.minet.adh5.android.ui.member.MemberActivity_&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;android:label=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;@string/app_name&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;android:theme=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;@style/AppTheme.ActionBar&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;android:uiOptions=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;splitActionBarWhenNarrow&amp;quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/activity&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/application&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/manifest&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Header 2</title>
+   <link href="http://francois.monniot.eu/jekyll-holo-theme//2013/04/09/header-2/"/>
+   <updated>2013-04-09T00:00:00+02:00</updated>
+   <id>http://francois.monniot.eu/jekyll-holo-theme//2013/04/09/header-2</id>
+   <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mollis scelerisque facilisis. Praesent auctor, ligula ac pellentesque pretium, lorem eros luctus lacus, nec imperdiet magna nisi nec elit. Pellentesque sed tincidunt magna. Nam quis sapien felis, sed euismod lacus. Phasellus vestibulum eleifend facilisis. Integer fringilla interdum tempus. Phasellus mattis semper lorem ac dignissim. Maecenas a augue enim. Ut ac libero non libero tempus sollicitudin vitae id nibh. Donec euismod velit ut neque mollis viverra. Aliquam est elit, gravida eget tempus non, varius a mi.&lt;/p&gt;
+
+&lt;p&gt;Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam quis blandit lorem. Proin ut eros id mi imperdiet tempor eu et nibh. Aenean ultricies nibh sed dui feugiat nec vehicula ipsum sodales. In in diam nec libero sodales porttitor. Integer at ligula et lectus condimentum accumsan. Phasellus rhoncus rhoncus libero, eget dictum justo posuere a. Vestibulum et consequat nisl. Donec ac nunc ut nunc pretium pellentesque in a quam. Sed leo diam, bibendum a mollis et, volutpat ut ipsum. Fusce est dui, tempus ac facilisis vel, tincidunt in tortor. Sed porta malesuada odio sed dictum. Nam sodales nunc quis quam aliquam venenatis. Etiam convallis luctus arcu, sit amet faucibus diam feugiat eu. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/p&gt;
+
+&lt;p&gt;Aenean elit enim, volutpat sed suscipit in, malesuada sed nisi. Sed felis neque, condimentum eu congue sed, eleifend vitae massa. In adipiscing elit ac neque mollis non malesuada enim faucibus. Phasellus quis dictum augue. Maecenas semper hendrerit felis, eu tempor sem porta eu. Praesent leo urna, porttitor quis vulputate eget, iaculis non est. Morbi sit amet commodo leo. Fusce eu congue metus.&lt;/p&gt;
+
+&lt;p&gt;In sodales justo in dui volutpat a cursus lacus ultricies. Pellentesque quam massa, fermentum at luctus non, euismod vitae neque. Etiam commodo condimentum elementum. Curabitur eget risus vitae mauris tincidunt ultrices sit amet quis sem. Nunc id commodo sem. Duis rhoncus magna id orci mattis auctor. Morbi tristique massa vel nunc porttitor pulvinar sagittis nunc tincidunt. Cras quis dui et arcu fringilla pretium nec eget odio. In hac habitasse platea dictumst. Quisque quis volutpat purus. Cras neque tellus, ultrices ut suscipit sed, sagittis eu orci. Vestibulum malesuada sem nec ipsum lacinia pulvinar. Cras ornare euismod dapibus. Vivamus suscipit nisi in nunc lacinia viverra. Aliquam a imperdiet eros. Duis leo nunc, convallis sed luctus sed, gravida nec sapien.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Header 1</title>
+   <link href="http://francois.monniot.eu/jekyll-holo-theme//2013/04/09/header-1/"/>
+   <updated>2013-04-09T00:00:00+02:00</updated>
+   <id>http://francois.monniot.eu/jekyll-holo-theme//2013/04/09/header-1</id>
+   <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mollis scelerisque facilisis. Praesent auctor, ligula ac pellentesque pretium, lorem eros luctus lacus, nec imperdiet magna nisi nec elit. Pellentesque sed tincidunt magna. Nam quis sapien felis, sed euismod lacus. Phasellus vestibulum eleifend facilisis. Integer fringilla interdum tempus. Phasellus mattis semper lorem ac dignissim. Maecenas a augue enim. Ut ac libero non libero tempus sollicitudin vitae id nibh. Donec euismod velit ut neque mollis viverra. Aliquam est elit, gravida eget tempus non, varius a mi.&lt;/p&gt;
+
+&lt;p&gt;Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam quis blandit lorem. Proin ut eros id mi imperdiet tempor eu et nibh. Aenean ultricies nibh sed dui feugiat nec vehicula ipsum sodales. In in diam nec libero sodales porttitor. Integer at ligula et lectus condimentum accumsan. Phasellus rhoncus rhoncus libero, eget dictum justo posuere a. Vestibulum et consequat nisl. Donec ac nunc ut nunc pretium pellentesque in a quam. Sed leo diam, bibendum a mollis et, volutpat ut ipsum. Fusce est dui, tempus ac facilisis vel, tincidunt in tortor. Sed porta malesuada odio sed dictum. Nam sodales nunc quis quam aliquam venenatis. Etiam convallis luctus arcu, sit amet faucibus diam feugiat eu. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/p&gt;
+
+&lt;p&gt;Aenean elit enim, volutpat sed suscipit in, malesuada sed nisi. Sed felis neque, condimentum eu congue sed, eleifend vitae massa. In adipiscing elit ac neque mollis non malesuada enim faucibus. Phasellus quis dictum augue. Maecenas semper hendrerit felis, eu tempor sem porta eu. Praesent leo urna, porttitor quis vulputate eget, iaculis non est. Morbi sit amet commodo leo. Fusce eu congue metus.&lt;/p&gt;
+
+&lt;p&gt;In sodales justo in dui volutpat a cursus lacus ultricies. Pellentesque quam massa, fermentum at luctus non, euismod vitae neque. Etiam commodo condimentum elementum. Curabitur eget risus vitae mauris tincidunt ultrices sit amet quis sem. Nunc id commodo sem. Duis rhoncus magna id orci mattis auctor. Morbi tristique massa vel nunc porttitor pulvinar sagittis nunc tincidunt. Cras quis dui et arcu fringilla pretium nec eget odio. In hac habitasse platea dictumst. Quisque quis volutpat purus. Cras neque tellus, ultrices ut suscipit sed, sagittis eu orci. Vestibulum malesuada sem nec ipsum lacinia pulvinar. Cras ornare euismod dapibus. Vivamus suscipit nisi in nunc lacinia viverra. Aliquam a imperdiet eros. Duis leo nunc, convallis sed luctus sed, gravida nec sapien.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>GitHub Flavored Markdown</title>
+   <link href="http://francois.monniot.eu/jekyll-holo-theme//2013/04/08/gfm/"/>
+   <updated>2013-04-08T00:00:00+02:00</updated>
+   <id>http://francois.monniot.eu/jekyll-holo-theme//2013/04/08/gfm</id>
+   <content type="html">&lt;p&gt;&lt;em&gt;View the &lt;a href=&quot;http://github.github.com/github-flavored-markdown/sample_content.html&quot;&gt;source of this content&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Let&amp;#39;s get the whole &amp;quot;linebreak&amp;quot; thing out of the way. The next paragraph contains two phrases separated by a single newline character:&lt;/p&gt;
+
+&lt;p&gt;Roses are red
+Violets are blue&lt;/p&gt;
+
+&lt;p&gt;The next paragraph has the same phrases, but now they are separated by two spaces and a newline character:&lt;/p&gt;
+
+&lt;p&gt;Roses are red
+Violets are blue&lt;/p&gt;
+
+&lt;p&gt;Oh, and one thing I cannot stand is the mangling of words with multiple underscores in them like perform_complicated_task or do_this_and_do_that_and_another_thing.&lt;/p&gt;
+
+&lt;p&gt;These are dangerous goodies though, and we need to make sure email addresses don&amp;#39;t get mangled:&lt;/p&gt;
+
+&lt;p&gt;My email addy is &lt;a href=&quot;mailto:tom@github.com&quot;&gt;tom@github.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Math is hard, let&amp;#39;s go shopping&lt;/h2&gt;
+
+&lt;p&gt;In first grade I learned that 5 &amp;gt; 3 and 2 &amp;lt; 7. Maybe some arrows. 1 -&amp;gt; 2 -&amp;gt; 3. 9 &amp;lt;- 8 &amp;lt;- 7.&lt;/p&gt;
+
+&lt;p&gt;Triangles man! a&lt;sup&gt;2&lt;/sup&gt; + b&lt;sup&gt;2&lt;/sup&gt; = c&lt;sup&gt;2&lt;/sup&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2&gt;We all like making lists&lt;/h2&gt;
+
+&lt;p&gt;The above header should be an H2 tag. Now, for a list of fruits:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Red Apples&lt;/li&gt;
+&lt;li&gt;Purple Grapes&lt;/li&gt;
+&lt;li&gt;Green Kiwifruits&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Let&amp;#39;s get crazy:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;This is a list item with two paragraphs. Lorem ipsum dolor
+sit amet, consectetuer adipiscing elit. Aliquam hendrerit
+mi posuere lectus.&lt;/p&gt;
+
+&lt;p&gt;Vestibulum enim wisi, viverra nec, fringilla in, laoreet
+vitae, risus. Donec sit amet nisl. Aliquam semper ipsum
+sit amet velit.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Suspendisse id sem consectetuer libero luctus adipiscing.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;What about some code &lt;strong&gt;in&lt;/strong&gt; a list? That&amp;#39;s insane, right?&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;In Ruby you can map like this:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text&quot;&gt;[&amp;#39;a&amp;#39;, &amp;#39;b&amp;#39;].map { |x| x.uppercase }
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;In Rails, you can do a shortcut:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text&quot;&gt;[&amp;#39;a&amp;#39;, &amp;#39;b&amp;#39;].map(&amp;amp;:uppercase)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Some people seem to like definition lists&lt;/p&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;Lower cost&lt;/dt&gt;
+  &lt;dd&gt;The new version of this product costs significantly less than the previous one!&lt;/dd&gt;
+  &lt;dt&gt;Easier to use&lt;/dt&gt;
+  &lt;dd&gt;We've changed the product so that it's much easier to use!&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;h2&gt;I am a robot&lt;/h2&gt;
+
+&lt;p&gt;Maybe you want to print &lt;code&gt;robot&lt;/code&gt; to the console 1000 times. Why not?&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text&quot;&gt;def robot_invasion
+  puts(&amp;quot;robot &amp;quot; * 1000)
+end
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;You see, that was formatted as code because it&amp;#39;s been indented by four spaces.&lt;/p&gt;
+
+&lt;p&gt;How about we throw some angle braces and ampersands in there?&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text&quot;&gt;&amp;lt;div class=&amp;quot;footer&amp;quot;&amp;gt;
+    &amp;amp;copy; 2004 Foo Corporation
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2&gt;Set in stone&lt;/h2&gt;
+
+&lt;p&gt;Preformatted blocks are useful for ASCII art:&lt;/p&gt;
+
+&lt;pre&gt;
+             ,-.
+    ,     ,-.   ,-.
+   / \   (   )-(   )
+   \ |  ,.&gt;-(   )-&lt;
+    \|,' (   )-(   )
+     Y ___`-'   `-'
+     |/__/   `-'
+     |
+     |
+     |    -hrr-
+  ___|_____________
+&lt;/pre&gt;
+
+&lt;h2&gt;Playing the blame game&lt;/h2&gt;
+
+&lt;p&gt;If you need to blame someone, the best way to do so is by quoting them:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;I, at any rate, am convinced that He does not throw dice.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Or perhaps someone a little less eloquent:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;I wish you&amp;#39;d have given me this written question ahead of time so I
+could plan for it... I&amp;#39;m sure something will pop into my head here in
+the midst of this press conference, with all the pressure of trying to
+come up with answer, but it hadn&amp;#39;t yet...&lt;/p&gt;
+
+&lt;p&gt;I don&amp;#39;t want to sound like
+I have made no mistakes. I&amp;#39;m confident I have. I just haven&amp;#39;t - you
+just put me under the spot here, and maybe I&amp;#39;m not as quick on my feet
+as I should be in coming up with one.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2&gt;Table for two&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;tr&gt;
+    &lt;th&gt;ID&lt;/th&gt;&lt;th&gt;Name&lt;/th&gt;&lt;th&gt;Rank&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;1&lt;/td&gt;&lt;td&gt;Tom Preston-Werner&lt;/td&gt;&lt;td&gt;Awesome&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;2&lt;/td&gt;&lt;td&gt;Albert Einstein&lt;/td&gt;&lt;td&gt;Nearly as awesome&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;h2&gt;Crazy linking action&lt;/h2&gt;
+
+&lt;p&gt;I get 10 times more traffic from &lt;a href=&quot;http://google.com/&quot; title=&quot;Google&quot;&gt;Google&lt;/a&gt; than from
+&lt;a href=&quot;http://search.yahoo.com/&quot; title=&quot;Yahoo Search&quot;&gt;Yahoo&lt;/a&gt; or &lt;a href=&quot;http://search.msn.com/&quot; title=&quot;MSN Search&quot;&gt;MSN&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>

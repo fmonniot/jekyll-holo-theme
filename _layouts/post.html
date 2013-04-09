@@ -3,12 +3,12 @@ layout: default
 ---
 <article>
   <div class="content">
-    <header><a href="{{ page.url }}"><h2>{{ page.title }}</h2></a></header>
+    <header><a href="{{ site.url }}{{ page.url }}"><h2>{{ page.title }}</h2></a></header>
     <section>
       {{ content }}
     </section>
     <footer>
-      <a href="{{ page.url }}">{{ page.date | date_to_long_string }}</a>
+      <a href="{{ site.url }}{{ page.url }}">{{ page.date | date_to_long_string }}</a>
       {% comment %} If category or tag , a paragraphe can be insert here {% endcomment %}
     </footer>
   </div>
